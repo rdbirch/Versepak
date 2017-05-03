@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My VersePak</title>
+
+  <link href="../style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+  <script type="text/javascript" language="Javascript" 
+          src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js">
+  </script>
+  <script src="../js/cardviewer.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h2 class="title">Romans</h1>
+    </div>
+
+    <!-- card-list must be on the <div> and not on the <table>, or else the table row borders are not drawn. -->
+    <div class="card-container card-list">
+
+      <table>
+        <thead>
+            <!-- define an empty header row just to set fixed column widths for the table -->
+            <tr>
+                <td width="5%"/>
+                <td width="45%"/>
+                <td width="40%"/>
+                <td width="10%"/>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Romans 12:1-2</td>
+                <td colspan="2">
+                    <button id="CUVS" onClick="toggle_card(this)">CUVS</button>
+                    <button id="NIV" onClick="toggle_card(this)">NIV</button>
+                    <button id="PHILLIPS" onClick="toggle_card(this)">PHILLIPS</button>
+                </td>
+            </tr>
+            <tr class="card-content" id="CUVS" style="border:none; display:none;">
+                <td/>
+                <td colspan="2">
+
+<div class="passage version-CUVS result-text-style-normal text-html">
+<p class="verse chapter-2"><span id="zh-CUVS-59351" class="text Rom-12-1"><span class="chapternum">12&nbsp;</span>所 以 弟 兄 们 ， 我 以 神 的 慈 悲 劝 你 们 ， 将 身 体 献 上 ， 当 作 活 祭 ， 是 圣 洁 的 ， 是 神 所 喜 悦 的 ； 你 们 如 此 事 奉 乃 是 理 所 当 然 的 。</span></p> <p class="verse"><span id="zh-CUVS-59352" class="text Rom-12-2"><sup class="versenum">2&nbsp;</sup>不 要 效 法 这 个 世 界 ， 只 要 心 意 更 新 而 变 化 ， 叫 你 们 察 验 何 为 神 的 善 良 、 纯 全 、 可 喜 悦 的 旨 意 。</span></p></div>
+
+                </td>
+                <td>
+                    <button id="CUVS-pinyin" onClick="toggle_card(this)">
+                        ﻿拼音
+                    </button>
+                </td>
+            </tr>
+            <tr class="card-content" id="CUVS-pinyin" style="border:none; display:none;">
+                <td/>
+                <td colspan="2">
+
+1 Suǒyǐ dìxiōngmen, wǒ yǐ shén de cíbēi quàn nǐmen, jiāng shēntǐ xiànshàng, dàng zuò huó jì, shì shèngjié de, shì shén suǒ xǐyuè de; nǐmen rúcǐ shì fèng nǎi shì lǐ suǒ Dāngrán de.
+<br/><br/>
+2 Bùyào xiàofǎ zhège shìjiè, zhǐyào xīnyì gēngxīn ér biànhuà, jiào nǐmen cháyàn hé wèi shén de shànliáng, chún quán, kě xǐyuè de zhǐyì.
+
+                </td>
+                <td/>
+            </tr>
+            <tr class="card-content" id="NIV" style="border:none; display:none;">
+                <td/>
+                <td colspan="2" class="card-content">
+
+<p class="chapter-2"><span class="text Rom-12-1"><span class="chapternum">12&nbsp;</span>Therefore, I urge you,<sup class="crossreference" value="(<a href=&quot;#cen-NIV-28247A&quot; title=&quot;See cross-reference A&quot;>A</a>)"></sup> brothers and sisters, in view of God’s mercy, to offer your bodies as a living sacrifice,<sup class="crossreference" value="(<a href=&quot;#cen-NIV-28247B&quot; title=&quot;See cross-reference B&quot;>B</a>)"></sup> holy and pleasing to God—this is your true and proper worship.</span> <span id="en-NIV-28248" class="text Rom-12-2"><sup class="versenum">2&nbsp;</sup>Do not conform<sup class="crossreference" value="(<a href=&quot;#cen-NIV-28248C&quot; title=&quot;See cross-reference C&quot;>C</a>)"></sup> to the pattern of this world,<sup class="crossreference" value="(<a href=&quot;#cen-NIV-28248D&quot; title=&quot;See cross-reference D&quot;>D</a>)"></sup> but be transformed by the renewing of your mind.<sup class="crossreference" value="(<a href=&quot;#cen-NIV-28248E&quot; title=&quot;See cross-reference E&quot;>E</a>)"></sup> Then you will be able to test and approve what God’s will is<sup class="crossreference" value="(<a href=&quot;#cen-NIV-28248F&quot; title=&quot;See cross-reference F&quot;>F</a>)"></sup>—his good, pleasing<sup class="crossreference" value="(<a href=&quot;#cen-NIV-28248G&quot; title=&quot;See cross-reference G&quot;>G</a>)"></sup> and perfect will.</span></p>
+
+                </td>
+                <td/>
+            </tr>
+            <tr class="card-content" id="PHILLIPS" style="border:none; display:none;">
+                <td/>
+                <td colspan="2" class="card-content">
+
+<span class="text Rom-12-1-Rom-12-2"><span class="chapternum">12&nbsp;</span><sup class="versenum">1-2&nbsp;</sup>With eyes wide open to the mercies of God, I beg you, my brothers, as an act of intelligent worship, to give him your bodies, as a living sacrifice, consecrated to him and acceptable by him. Don’t let the world around you squeeze you into its own mould, but let God re-mould your minds from within, so that you may prove in practice that the plan of God for you is good, meets all his demands and moves towards the goal of true maturity.</span>
+
+                </td>
+                <td/>
+            </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</body>
+
+</html>
+

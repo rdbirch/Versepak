@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My VersePak</title>
+
+  <link href="../style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+  <script type="text/javascript" language="Javascript" 
+          src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js">
+  </script>
+  <script src="../js/cardviewer.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h2 class="title">Deuteronomy</h1>
+    </div>
+
+    <!-- card-list must be on the <div> and not on the <table>, or else the table row borders are not drawn. -->
+    <div class="card-container card-list">
+
+      <table>
+        <thead>
+            <!-- define an empty header row just to set fixed column widths for the table -->
+            <tr>
+                <td width="5%"/>
+                <td width="45%"/>
+                <td width="40%"/>
+                <td width="10%"/>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Deuteronomy 29:29</td>
+                <td colspan="2">
+                    <button id="CUVS" onClick="toggle_card(this)">CUVS</button>
+                    <button id="NIV" onClick="toggle_card(this)">NIV</button>
+                    <button id="VOICE" onClick="toggle_card(this)">VOICE</button>
+                </td>
+            </tr>
+            <tr class="card-content" id="CUVS" style="border:none; display:none;">
+                <td/>
+                <td colspan="2">
+
+<span id="zh-CUVS-36813" class="text Deut-29-29"><sup class="versenum">29&nbsp;</sup>隐 秘 的 事 是 属 耶 和 华 ─ 我 们 神 的 ； 惟 有 明 显 的 事 是 永 远 属 我 们 和 我 们 子 孙 的 ， 好 叫 我 们 遵 行 这 律 法 上 的 一 切 话 。</span>
+
+                </td>
+                <td>
+                    <button id="CUVS-pinyin" onClick="toggle_card(this)">
+                        ﻿拼音
+                    </button>
+                </td>
+            </tr>
+            <tr class="card-content" id="CUVS-pinyin" style="border:none; display:none;">
+                <td/>
+                <td colspan="2">
+
+29 Yǐnmì de shì shì shǔ yēhéhuá ─wǒmen shén de; wéiyǒu míngxiǎn de shì shì yǒngyuǎn shǔ wǒmen hé wǒmen zǐsūn de, hǎo jiào wǒmen zūnxíng zhè lǜ fǎ shàng de yīqiè huà.
+
+                </td>
+                <td/>
+            </tr>
+            <tr class="card-content" id="NIV" style="border:none; display:none;">
+                <td/>
+                <td colspan="2" class="card-content">
+
+<span id="en-NIV-5709" class="text Deut-29-29"><sup class="versenum">29&nbsp;</sup>The secret things belong to the <span style="font-variant: small-caps" class="small-caps">Lord</span> our God,<sup class="crossreference" value="(<a href=&quot;#cen-NIV-5709A&quot; title=&quot;See cross-reference A&quot;>A</a>)"></sup> but the things revealed belong to us and to our children forever, that we may follow all the words of this law.<sup class="crossreference" value="(<a href=&quot;#cen-NIV-5709B&quot; title=&quot;See cross-reference B&quot;>B</a>)"></sup></span>
+
+                </td>
+                <td/>
+            </tr>
+            <tr class="card-content" id="VOICE" style="border:none; display:none;">
+                <td/>
+                <td colspan="2" class="card-content">
+
+<span id="en-VOICE-5371" class="text Deut-29-29"><sup class="versenum">29&nbsp;</sup>Only the Eternal knows the secret things. But we and our descendants are always responsible for what has been revealed to us, and we need to obey every word of this law.</span>
+
+                </td>
+                <td/>
+            </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</body>
+
+</html>
+
